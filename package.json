@@ -20,7 +20,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
     "@nuxtjs/redirect-module": "^0.3.1",
@@ -36,6 +37,7 @@
     "eslint": "^7.2.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "node-sass": "^4.14.1",
+    "push-dir": "^0.4.1",
     "sass-loader": "^8.0.2",
     "stylelint": "^13.6.0"
   }

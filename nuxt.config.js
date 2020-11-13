@@ -1,5 +1,9 @@
 
 export default {
+  target: 'static',
+  router: {
+    base: '/gifts.morsecodemedia.com/'
+  },
   /*
   ** Headers of the page
   */
