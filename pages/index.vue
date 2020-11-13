@@ -171,7 +171,7 @@ export default {
 .item a {
   padding: 15px;
   color: rgba(255,255,255,1);
-  background-color: rbga(255,0,0,1);
+  background-color: rgba(255,0,0,1);
   display: block;
   text-align: center;
   margin-bottom: 25px;
