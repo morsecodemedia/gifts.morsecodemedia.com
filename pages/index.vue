@@ -131,13 +131,14 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: rgba(0,0,0,.6);
+}
 .items {
   display: flex;
   padding: 25px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: rgba(0,0,0,.6);
-  height: 100vh;
 }
 .item {
   background-color: white;
