@@ -6,6 +6,7 @@
       class="item"
     >
       <p class="title">{{ item.name }}</p>
+      <p class="category">{{ item.category }}</p>
       <p class="price">${{ item.price }}</p>
       <a
         :href="item.url"
@@ -146,5 +147,33 @@ export default {
   padding: 10px;
   width: 300px;
   min-height: 75px;
+}
+
+.item p.title {
+  font-size: 1.6em;
+  color: rgba(0,0,0,1);
+  margin-bottom: 15px;
+}
+
+.item p.category {
+  font-size: 0.8em;
+  color: rgba(0,0,0,.6);
+  margin-bottom: 10px;
+}
+
+.item p.price {
+  font-size: 1em;
+  font-style: italic;
+  color: rgba(0,0,0,.9);
+  margin-bottom: 25px;
+}
+
+.item a {
+  padding: 15px;
+  color: rgba(255,255,255,1);
+  background-color: rbga(255,0,0,1);
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
 }
 </style>
