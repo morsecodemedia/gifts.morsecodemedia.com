@@ -28,46 +28,11 @@ export default {
     return {
       items: [
         {
-          name: 'De Los Muertos Shirt',
-          category: 'clothes',
-          price: '25.00',
-          url: 'https://github.myshopify.com/collections/shirts/products/los-muertos-tee',
-          misc: 'Men\'s - Medium'
-        },
-        {
-          name: 'Grim Repo Shirt',
-          category: 'clothes',
-          price: '25.00',
-          url: 'https://github.myshopify.com/collections/shirts/products/grim-repo-tees',
-          misc: 'Men\'s - Medium'
-        },
-        {
-          name: 'Recursion by Blake Crouch',
-          category: 'audiobooks',
-          price: '19.60',
-          url: 'https://www.audible.com/pd/Recursion-Audiobook/1984886878',
-          misc: ''
-        },
-        {
-          name: 'Ready Player Two by Ernest Cline',
-          category: 'audiobooks',
-          price: '24.50',
-          url: 'https://www.audible.com/pd/Ready-Player-Two-Audiobook/0593396960',
-          misc: ''
-        },
-        {
-          name: 'Cyberpunk 2077',
-          category: 'video-games',
-          price: '49.94',
-          url: 'https://smile.amazon.com/Cyberpunk-2077-Xbox-One/dp/B07DJW4WZC/',
-          misc: 'XBOX One'
-        },
-        {
-          name: 'Dead by Daylight: Definitive Edition',
-          category: 'video-games',
-          price: '29.99',
-          url: 'https://smile.amazon.com/Dead-Daylight-Definitive-Nintendo-Switch/dp/B07TJWSZQT/',
-          misc: 'Nintendo Switch'
+          name: '3D Printing - Supplies/Upgrades',
+          category: 'amzn-wishlist',
+          price: '0.00',
+          url: 'https://smile.amazon.com/hz/wishlist/ls/39273QCBU2JB6/ref=nav_wishlist_lists_5?_encoding=UTF8&type=wishlist',
+          misc: 'Amazon Wishlist'
         },
         {
           name: 'Remothered: Tormented Fathers',
@@ -82,13 +47,6 @@ export default {
           price: '29.99',
           url: 'https://smile.amazon.com/Remothered-Broken-Porcelain-NSW-Nintendo-Switch/dp/B07WH3KDMH/',
           misc: 'Nintendo Switch'
-        },
-        {
-          name: 'Garmin Instinct Solar Watch',
-          category: 'everyday-carry',
-          price: '292.95',
-          url: 'https://smile.amazon.com/Garmin-Instinct-Solar-Powered-Smartwatch-Monitoring/dp/B089YVVLSW/',
-          misc: 'Graphite'
         },
         {
           name: 'Solo Stove - Bonfire Backyard Bundle',
